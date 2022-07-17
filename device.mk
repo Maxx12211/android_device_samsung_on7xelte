@@ -90,9 +90,7 @@ PRODUCT_PACKAGES += \
 
 
 
-# Disable trace
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.traced.enable=0
+
 
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
