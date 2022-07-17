@@ -84,3 +84,6 @@
 /system/bin/wifiloader                                u:object_r:wifiloader_exec:s0
 /system/bin/cbd                                      u:object_r:cpboot-daemon_exec:s0
 /system/bin/gpsd                                     u:object_r:gpsd_exec:s0
+
+
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.samsung                  u:object_r:hal_light_default_exec:s0
