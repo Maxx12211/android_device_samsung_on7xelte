@@ -72,3 +72,7 @@ wifi.interface=wlan0
 wlan.wfd.hdcp=disable
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# Bpf
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.kernel.ebpf.supported=false
