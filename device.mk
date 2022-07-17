@@ -88,9 +88,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service
 
-# DevOtag
-PRODUCT_PACKAGES += \
-    DevOtag
+
 
 # Disable trace
 PRODUCT_PROPERTY_OVERRIDES += \
