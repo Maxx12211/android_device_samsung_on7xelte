@@ -234,6 +234,9 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
 #BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
 
+# memfd
+TARGET_HAS_MEMFD_BACKPORT := true
+
 # Shim
 TARGET_LD_SHIM_LIBS += \
     /system/bin/gpsd|gpsd_shim.so \
