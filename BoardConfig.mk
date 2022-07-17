@@ -47,6 +47,9 @@ TARGET_USES_64_BIT_BINDER := true
 # VNDK VERSION
 BOARD_VNDK_VERSION := current
 
+# Dedupe VNDK libraries with identical core variants.
+TARGET_VNDK_USE_CORE_VARIANT := true
+
 # Broken Rules
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
